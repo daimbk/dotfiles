@@ -1,0 +1,35 @@
+[
+  {
+    "key": "ctrl+alt+p",
+    "command": "workbench.profiles.actions.switchProfile"
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    // unbind unconditional default using "minus" (-) before command
+    "key": "ctrl+1",
+    "command": "-workbench.action.focusSideBar"
+  },
+  {
+    // move focus to the SideBar if not (!) there
+    "key": "ctrl+1",
+    "when": "!sideBarFocus",
+    "command": "workbench.action.focusSideBar"
+  },
+  {
+    // move focus to the Editor, if currently in the SideBar
+    "key": "ctrl+1",
+    "when": "sideBarFocus",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder"
+  }
+]

@@ -1,0 +1,111 @@
+{
+  // open json editor for settings
+  "workbench.settings.editor": "json",
+
+  // theme
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "The Digital Life",
+  "workbench.colorCustomizations": {
+    "[The Digital Life]": {
+      "editor.background": "#171717",
+      "editorGutter.background": "#171717"
+    }
+  },
+
+  // fonts
+  "editor.fontFamily": "Geist Mono",
+  "scm.inputFontFamily": "Geist Mono",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "chat.editor.fontFamily": "Geist Mono",
+  "debug.console.fontFamily": "Geist Mono",
+  "editor.codeLensFontFamily": "Geist Mono",
+  "notebook.output.fontFamily": "Geist Mono",
+  "markdown.preview.fontFamily": "Geist Mono",
+  "editor.inlayHints.fontFamily": "Geist Mono",
+
+  // font size
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+
+  // ui
+  "editor.minimap.enabled": false,
+  "window.commandCenter": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "auto",
+  "window.titleBarStyle": "custom",
+
+  // apc extension
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": false,
+    "size": 28
+  },
+  "apc.electron": {
+    // for mac
+    // "titleBarSt yle": "hiddenInset",
+    // "trafficLightPosition": {
+    //   "x": 12,
+    //   "y": 10
+    // }
+  },
+  "apc.font.family": "Geist Mono",
+  "apc.monospace.font.family": "Geist Mono",
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 28,
+    "fontSize": 12
+  },
+
+  // custom css
+  "apc.stylesheet": {
+    ".sidebar > .composite": "height: 0px !important",
+    ".title-label": "display: none !important",
+    ".title-actions": "display: none !important",
+    // ".tabs-and-actions-container > .editor-actions": "display: none !important",
+    ".titlebar-center": "display: none !important",
+    // ".titlebar-right": "display: none !important", // for mac
+    ".titlebar-left": "display: none !important", // for windows alternate to window.menuBarVisibility
+    ".inline-tabs-placeholder": "display: none !important",
+    ".split-view-view .visible": "background-color: #171717 !important"
+  },
+
+  // misc.
+  "window.zoomLevel": 0.1,
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "editor.tabSize": 4,
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": true,
+  "breadcrumbs.filePath": "on",
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "code-runner.runInTerminal": true,
+  "workbench.editorAssociations": {
+    "*.pdf": "pdf.preview"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "update.mode": "manual",
+
+  // formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never"
+  },
+  "prettier.printWidth": 100,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+
+  // spelling ignore
+  "cSpell.userWords": ["Daim"]
+}
