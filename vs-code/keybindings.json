@@ -9,18 +9,18 @@
   },
   {
     // unbind unconditional default using "minus" (-) before command
-    "key": "ctrl+1",
+    "key": "ctrl+shift+f",
     "command": "-workbench.action.focusSideBar"
   },
   {
     // move focus to the SideBar if not (!) there
-    "key": "ctrl+1",
+    "key": "ctrl+shift+f",
     "when": "!sideBarFocus",
     "command": "workbench.action.focusSideBar"
   },
   {
     // move focus to the Editor, if currently in the SideBar
-    "key": "ctrl+1",
+    "key": "ctrl+shift+f",
     "when": "sideBarFocus",
     "command": "workbench.action.focusActiveEditorGroup"
   },
@@ -31,5 +31,9 @@
   {
     "key": "ctrl+shift+n",
     "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "vscode.newWindow"
   }
 ]
