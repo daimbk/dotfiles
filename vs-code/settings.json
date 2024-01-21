@@ -3,7 +3,7 @@
   "workbench.settings.editor": "json",
 
   // theme
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "moxer-icons",
   "workbench.colorTheme": "The Digital Life",
   "workbench.colorCustomizations": {
     "[The Digital Life]": {
@@ -13,15 +13,15 @@
   },
 
   // fonts
-  "editor.fontFamily": "Geist Mono",
-  "scm.inputFontFamily": "Geist Mono",
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  "chat.editor.fontFamily": "Geist Mono",
-  "debug.console.fontFamily": "Geist Mono",
-  "editor.codeLensFontFamily": "Geist Mono",
-  "notebook.output.fontFamily": "Geist Mono",
-  "markdown.preview.fontFamily": "Geist Mono",
-  "editor.inlayHints.fontFamily": "Geist Mono",
+  "editor.fontFamily": "RobotoMono Nerd Font",
+  "scm.inputFontFamily": "RobotoMono Nerd Font",
+  "terminal.integrated.fontFamily": "RobotoMono Nerd Font",
+  "chat.editor.fontFamily": "RobotoMono Nerd Font",
+  "debug.console.fontFamily": "RobotoMono Nerd Font",
+  "editor.codeLensFontFamily": "RobotoMono Nerd Font",
+  "notebook.output.fontFamily": "RobotoMono Nerd Font",
+  "markdown.preview.fontFamily": "RobotoMono Nerd Font",
+  "editor.inlayHints.fontFamily": "RobotoMono Nerd Font",
 
   // font size
   "editor.fontSize": 14,
@@ -40,16 +40,16 @@
     "hideSettings": false,
     "size": 28
   },
-  "apc.electron": {
-    // for mac
-    // "titleBarSt yle": "hiddenInset",
-    // "trafficLightPosition": {
-    //   "x": 12,
-    //   "y": 10
-    // }
-  },
-  "apc.font.family": "Geist Mono",
-  "apc.monospace.font.family": "Geist Mono",
+  // "apc.electron": {
+  //   // for mac
+  //   // "titleBarSt yle": "hiddenInset",
+  //   // "trafficLightPosition": {
+  //   //   "x": 12,
+  //   //   "y": 10
+  //   // }
+  // },
+  "apc.font.family": "RobotoMono Nerd Font",
+  "apc.monospace.font.family": "RobotoMono Nerd Font",
   "apc.statusBar": {
     "position": "editor-bottom",
     "height": 28,
