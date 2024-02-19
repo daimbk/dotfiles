@@ -8,23 +8,6 @@
     "command": "workbench.action.splitEditorRight"
   },
   {
-    // unbind unconditional default using "minus" (-) before command
-    "key": "ctrl+shift+f",
-    "command": "-workbench.action.focusSideBar"
-  },
-  {
-    // move focus to the SideBar if not (!) there
-    "key": "ctrl+shift+f",
-    "when": "!sideBarFocus",
-    "command": "workbench.action.focusSideBar"
-  },
-  {
-    // move focus to the Editor, if currently in the SideBar
-    "key": "ctrl+shift+f",
-    "when": "sideBarFocus",
-    "command": "workbench.action.focusActiveEditorGroup"
-  },
-  {
     "key": "ctrl+n",
     "command": "explorer.newFile"
   },
