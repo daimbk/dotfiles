@@ -1,3 +1,1 @@
-$ENV:STARSHIP_CONFIG = "$HOME\.starship\starship.toml"
-$ENV:STARSHIP_DISTRO = "者 xcad"
-Invoke-Expression (&starship init powershell)
+oh-my-posh init pwsh --config 'C:\Users\daimb\AppData\Local\Programs\oh-my-posh\themes\quick-term.omp.json' | Invoke-Expression
